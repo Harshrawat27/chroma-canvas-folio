@@ -6,7 +6,7 @@ export function AboutSection() {
     <section id="about" className="py-20 relative overflow-hidden">
       <div className="grid-background"></div>
       
-      <div className="container relative z-10">
+      <div className="relative z-10">
         <div className="text-reveal-container mb-8">
           <h2 className="text-3xl md:text-4xl font-mono font-bold">
             <span className="text-reveal">ABOUT</span>{" "}
@@ -14,7 +14,7 @@ export function AboutSection() {
           </h2>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 gap-8">
           <div className="space-y-6">
             <div className="text-reveal-container">
               <p className="text-lg leading-relaxed text-muted-foreground">

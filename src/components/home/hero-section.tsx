@@ -7,7 +7,7 @@ export function HeroSection() {
     <section className="relative py-20 md:py-32 overflow-hidden">
       <div className="grid-background"></div>
       
-      <div className="container relative z-10">
+      <div className="relative z-10">
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="flex-1 space-y-6">
             <div className="text-reveal-container">
@@ -39,20 +39,20 @@ export function HeroSection() {
               </span>
             </div>
             
-            <div className="flex items-center space-x-6 pt-4 text-sm font-mono text-muted-foreground">
-              <div className="animate-fade-in" style={{ animationDelay: "0.6s" }}>
+            <div className="flex flex-wrap items-center space-x-4 pt-4 text-sm font-mono text-muted-foreground">
+              <div className="animate-fade-in mb-2" style={{ animationDelay: "0.6s" }}>
                 <span className="block text-foreground">128</span>
                 Repositories
               </div>
-              <div className="animate-fade-in" style={{ animationDelay: "0.7s" }}>
+              <div className="animate-fade-in mb-2" style={{ animationDelay: "0.7s" }}>
                 <span className="block text-foreground">1.5k</span>
                 Followers
               </div>
-              <div className="animate-fade-in" style={{ animationDelay: "0.8s" }}>
+              <div className="animate-fade-in mb-2" style={{ animationDelay: "0.8s" }}>
                 <span className="block text-foreground">284</span>
                 Following
               </div>
-              <div className="animate-fade-in" style={{ animationDelay: "0.9s" }}>
+              <div className="animate-fade-in mb-2" style={{ animationDelay: "0.9s" }}>
                 <span className="block text-foreground">5+</span>
                 Years
               </div>
@@ -60,7 +60,7 @@ export function HeroSection() {
           </div>
           
           <div className="flex-shrink-0 relative">
-            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-purple-500/30 animate-fade-in">
+            <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-purple-500/30 animate-fade-in">
               <img 
                 src={profileImage} 
                 alt="Developer portrait"

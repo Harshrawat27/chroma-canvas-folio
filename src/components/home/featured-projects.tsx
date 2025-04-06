@@ -38,7 +38,7 @@ export function FeaturedProjects() {
     <section id="projects" className="py-20 relative overflow-hidden">
       <div className="grid-background"></div>
       
-      <div className="container relative z-10">
+      <div className="relative z-10">
         <div className="flex justify-between items-center mb-12">
           <div className="text-reveal-container">
             <h2 className="text-3xl md:text-4xl font-mono font-bold">
@@ -53,7 +53,7 @@ export function FeaturedProjects() {
           </Link>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 gap-8">
           {projects.map((project, index) => (
             <Link to={`/project/${project.slug}`} key={project.id} className="project-card group animate-fade-in" style={{ animationDelay: `${0.2 * (index + 1)}s` }}>
               <div className="relative aspect-video mb-4 overflow-hidden rounded-md">
